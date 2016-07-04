@@ -1,0 +1,31 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AlignTrailingComments: true
+
+BreakBeforeBraces: Attach
+
+AllowAllParametersOfDeclarationOnNextLine : false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine : false
+AllowShortLoopsOnASingleLine : false
+BreakBeforeBinaryOperators : false
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: false
+
+ColumnLimit: 0
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+MaxEmptyLinesToKeep: 2
+
+KeepEmptyLinesAtTheStartOfBlocks: true
+
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+
+PointerBindsToType: false
+
+SpaceBeforeParens: Always
+SpacesInAngles: true
+
+UseTab: Never 
