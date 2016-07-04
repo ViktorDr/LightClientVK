@@ -19,5 +19,7 @@ C главной страницы можно посмотреть друзей, 
  
  С MOGenerator разобраться не успел: действуя по инструкциям классы не создавались и я решил не тратить время:
  https://habrahabr.ru/post/185894/
+ 
  http://bryanlor.com/blog/ios-tutorial-how-add-and-configure-mogenerator-xcode-5
+ 
  https://raptureinvenice.com/getting-started-with-mogenerator/
