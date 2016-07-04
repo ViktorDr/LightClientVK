@@ -23,3 +23,8 @@ C главной страницы можно посмотреть друзей, 
  http://bryanlor.com/blog/ios-tutorial-how-add-and-configure-mogenerator-xcode-5
  
  https://raptureinvenice.com/getting-started-with-mogenerator/
+ 
+ Не успел сделать:
+ Вместо VK SDK - использовать VK API + AFNetworking.
+ Покрытие Unit-тестами: 1-2 класса.
+
