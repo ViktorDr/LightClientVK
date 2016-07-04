@@ -17,6 +17,8 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <UIScrollView+InfiniteScroll.h>
 
+static NSInteger const IMAGE_PROPORTION = 3;
+
 @interface LCWallViewController () < MWPhotoBrowserDelegate > {
     NSArray *wallRecords;
     NSArray *photos;
@@ -144,7 +146,7 @@
 
     for (NSString *url in urls) {
         startImageYPosition += 5;
-        CGRect imageFrame = CGRectMake (15, startImageYPosition, self.view.frame.size.width / 3, self.view.frame.size.width / 3);
+        CGRect imageFrame = CGRectMake (15, startImageYPosition, self.view.frame.size.width / IMAGE_PROPORTION, self.view.frame.size.width / IMAGE_PROPORTION);
 
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:imageFrame];
         [imageView.layer setBorderColor: [[UIColor darkGrayColor] CGColor]];
@@ -158,7 +160,7 @@
         } else {
             imageView.image = nil;
         }
-        startImageYPosition += self.view.frame.size.width / 3;
+        startImageYPosition += self.view.frame.size.width / IMAGE_PROPORTION;
         [cell.contentView addSubview:imageView];
     }
     return cell;
